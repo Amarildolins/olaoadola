@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: #FFF;
+}
+
+body {
+    height: 180vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4rem;
+    background-color: rgba(194, 2, 2, 0.982);
+}
+
+
+
+.box_header_img {
+    
+    display: flex;
+    align-items: center;
+}
+
+
+.logo__header {
+
+    font-size: 2rem;
+    font-family: 'Lato:Ital';
+    letter-spacing: .1rem;
+}
+
+strong {
+    color: var(--cor-principal);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    font-weight: 600;
+}
+
+.store__style {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--cor-principal);
+    font-size: 1rem;
+}
+.store__style:hover {
+    text-decoration: underline;
+    color: rgb(195, 195, 195);
+}
+
+button {
+
+    padding: .3rem;
+    border-radius: 5px;
+    font-size: .9rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1.3px solid var(--cor-principal);
+    color: var(--cor-principal);
+    cursor: pointer;
+    transition: 300ms;
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(215, 0, 0);
+}
+.box_btn {
+    display: flex;
+    gap: 1rem;
+    
+
+}
+
+
+.container  {
+    
+    height: 100vh;
+    background-image: url("logo/GEKQJE8WUAA-xa5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first__section{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    margin: 0em 0em 0.3em 0em;
+    letter-spacing: 0.025rem;
+}
+.container_btn{
+
+    margin: 0em 6em;
+    
+}
+.container_btn p {
+    color: white;
+    font-family: 'lapo:ithal';
+    font-size: 1rem;
+}
